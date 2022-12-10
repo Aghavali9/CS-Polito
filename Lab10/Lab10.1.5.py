@@ -9,7 +9,6 @@ Use exception handling to detect improper input."""
 # Lab10.1.5
 
 def main():
-    flag_1 = False
     chances = 2
     floats = []
     while (not flag_1) and chances != 0:
@@ -17,6 +16,8 @@ def main():
             input_ = input(f'Enter floats, (empty to end).\n\t{chances} {"chance" if chances == 1 else "chances"} remaining\n\t>>> ')
             float_ = float(input_)
         except ValueError:
+            if not input_:
+                break
             print(f'{"Please enter a valid float number" if chances > 1 else "GAME OVER"}')
             chances -= 1
         else:
