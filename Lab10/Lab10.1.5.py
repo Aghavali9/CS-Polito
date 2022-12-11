@@ -11,7 +11,7 @@ Use exception handling to detect improper input."""
 def main():
     chances = 2
     floats = []
-    while (not flag_1) and chances != 0:
+    while chances != 0:
         try:
             input_ = input(f'Enter floats, (empty to end).\n\t{chances} {"chance" if chances == 1 else "chances"} remaining\n\t>>> ')
             float_ = float(input_)
