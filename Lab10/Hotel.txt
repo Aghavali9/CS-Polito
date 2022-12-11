@@ -1,0 +1,8 @@
+Giorgio Chiellini; dinner; 54.6; Oct 19
+Giorgio Chiellini; lodging; 10.4; Oct 19
+Giorgio Chiellini; conference; 30; Oct 19
+Alessandro Del Piero; dinner; 60.3; Nov 3
+Alessandro Del Piero; lodging; 15.6; Nov 3
+David Trezegue; dinner; 45.2; Dec 5
+David Trezegue; lodging; 9.3; Dec 5
+David Trezegue; conference; 30; Dec 5
