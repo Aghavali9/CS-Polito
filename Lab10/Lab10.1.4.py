@@ -19,7 +19,7 @@ def main():
         exit(1)
     data = organizer(contents)
     for elements in data:
-        if len(elements) != 4 and isinstance(elements[2], float):
+        if len(elements) != 4 and not isinstance(elements[2], float):
             print('Format is incorrect')
             exit(1)
     dinner, lodging, conference = aggregator(data)
